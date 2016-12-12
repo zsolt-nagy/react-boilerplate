@@ -32,12 +32,17 @@ class ChatBox extends React.Component {
                 text: 'I forgot you were not into small talk.'
             }
         ];
+
+        this.clearMessages = this.clearMessages.bind( this );
+    }
+    clearMessages() {
+        this.setState( { messages: [] } );
     }
     render() {
         return (
             <div>
                 <MessageList messages={this.state.messages} />
-                <ClearButton />
+                <ClearButton clearMessages={this.clearMessages} />
             </div>
         );
     }
