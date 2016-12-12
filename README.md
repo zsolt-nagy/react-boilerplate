@@ -1,2 +1,15 @@
-# react-boilerplate
-React Boilerplate based on the article http://www.zsoltnagy.eu/step-by-step-environment-setup-of-the-react-developer-no-legacy-2016-standards/
+# react-chat-example
+
+A basic chat component illustrating the fundamentals of React.
+
+## Installation
+
+```
+git clone https://github.com/zsolt-nagy/react-boilerplate.git
+
+npm install
+
+git checkout react-chat-example
+
+npm run build
+```
